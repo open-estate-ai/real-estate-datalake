@@ -2,4 +2,4 @@
 __pycache__/
 .venv/
 lambda_function.zip
-.ndjson
+.env
