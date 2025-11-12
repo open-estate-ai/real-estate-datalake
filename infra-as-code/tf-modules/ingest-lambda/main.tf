@@ -107,10 +107,8 @@ resource "aws_lambda_function" "ingest" {
 
   handler     = "ingest.lambda_handler"
   runtime     = "python3.12"
-  timeout     = 60
-  memory_size = 512
-
-
+  timeout     = 900
+  memory_size = 1024
 
   environment {
     variables = {
